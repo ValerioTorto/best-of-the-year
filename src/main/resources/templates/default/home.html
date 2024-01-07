@@ -8,12 +8,10 @@
     <title>BEST YEAR</title>
 </head>
 <body>
-<h1>
-    Best of the <span th:text="${year}">
-
+<h1>Best of the <span th:text="${year}">
 </span> by <span th:text="${name}"></span>
-
 </h1>
+<a th:href="@{/songs}">Go to song list</a>
 
 </body>
 </html>
